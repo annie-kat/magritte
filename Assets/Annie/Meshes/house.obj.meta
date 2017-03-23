@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: c914661a667044593b26fffda910e02f
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: door_front_doors door_left
+    100002: door_front_doors door_right
+    100004: door_front_doors knob_right
+    100006: door_mat_mischellaneous
+    100008: doors_door door_room5
+    100010: doors_door_room1 door
+    100012: doors_door_room2 door
+    100014: doors_door_room3 door
+    100016: doors_door_room4 door
+    100018: doors_door_room5 knob
+    100020: doors_knob door_room1
+    100022: doors_knob door_room2
+    100024: doors_knob door_room3
+    100026: doors_knob door_room4
+    100028: floor_floor_concrete
+    100030: floor_floor_wood
+    100032: floor_room1_floor
+    100034: //RootNode
+    100036: knob_left_door_front doors
+    100038: light_fixtures_glass
+    100040: metal_light_fixtures
+    100042: roof_shingles
+    100044: stairs
+    100046: structure_roof
+    100048: trim
+    100050: walls_ceiling
+    100052: walls_outside_walls
+    100054: walls_walls_house
+    100056: walls_walls_pv_room
+    400000: door_front_doors door_left
+    400002: door_front_doors door_right
+    400004: door_front_doors knob_right
+    400006: door_mat_mischellaneous
+    400008: doors_door door_room5
+    400010: doors_door_room1 door
+    400012: doors_door_room2 door
+    400014: doors_door_room3 door
+    400016: doors_door_room4 door
+    400018: doors_door_room5 knob
+    400020: doors_knob door_room1
+    400022: doors_knob door_room2
+    400024: doors_knob door_room3
+    400026: doors_knob door_room4
+    400028: floor_floor_concrete
+    400030: floor_floor_wood
+    400032: floor_room1_floor
+    400034: //RootNode
+    400036: knob_left_door_front doors
+    400038: light_fixtures_glass
+    400040: metal_light_fixtures
+    400042: roof_shingles
+    400044: stairs
+    400046: structure_roof
+    400048: trim
+    400050: walls_ceiling
+    400052: walls_outside_walls
+    400054: walls_walls_house
+    400056: walls_walls_pv_room
+    2300000: door_front_doors door_left
+    2300002: door_front_doors door_right
+    2300004: door_front_doors knob_right
+    2300006: door_mat_mischellaneous
+    2300008: doors_door door_room5
+    2300010: doors_door_room1 door
+    2300012: doors_door_room2 door
+    2300014: doors_door_room3 door
+    2300016: doors_door_room4 door
+    2300018: doors_door_room5 knob
+    2300020: doors_knob door_room1
+    2300022: doors_knob door_room2
+    2300024: doors_knob door_room3
+    2300026: doors_knob door_room4
+    2300028: floor_floor_concrete
+    2300030: floor_floor_wood
+    2300032: floor_room1_floor
+    2300034: knob_left_door_front doors
+    2300036: light_fixtures_glass
+    2300038: metal_light_fixtures
+    2300040: roof_shingles
+    2300042: stairs
+    2300044: structure_roof
+    2300046: trim
+    2300048: walls_ceiling
+    2300050: walls_outside_walls
+    2300052: walls_walls_house
+    2300054: walls_walls_pv_room
+    3300000: door_front_doors door_left
+    3300002: door_front_doors door_right
+    3300004: door_front_doors knob_right
+    3300006: door_mat_mischellaneous
+    3300008: doors_door door_room5
+    3300010: doors_door_room1 door
+    3300012: doors_door_room2 door
+    3300014: doors_door_room3 door
+    3300016: doors_door_room4 door
+    3300018: doors_door_room5 knob
+    3300020: doors_knob door_room1
+    3300022: doors_knob door_room2
+    3300024: doors_knob door_room3
+    3300026: doors_knob door_room4
+    3300028: floor_floor_concrete
+    3300030: floor_floor_wood
+    3300032: floor_room1_floor
+    3300034: knob_left_door_front doors
+    3300036: light_fixtures_glass
+    3300038: metal_light_fixtures
+    3300040: roof_shingles
+    3300042: stairs
+    3300044: structure_roof
+    3300046: trim
+    3300048: walls_ceiling
+    3300050: walls_outside_walls
+    3300052: walls_walls_house
+    3300054: walls_walls_pv_room
+    4300000: door_front_doors door_left
+    4300002: door_front_doors door_right
+    4300004: door_front_doors knob_right
+    4300006: door_mat_mischellaneous
+    4300008: doors_door door_room5
+    4300010: doors_door_room1 door
+    4300012: doors_door_room2 door
+    4300014: doors_door_room3 door
+    4300016: doors_door_room4 door
+    4300018: doors_door_room5 knob
+    4300020: doors_knob door_room1
+    4300022: doors_knob door_room2
+    4300024: doors_knob door_room3
+    4300026: doors_knob door_room4
+    4300028: floor_floor_concrete
+    4300030: floor_floor_wood
+    4300032: floor_room1_floor
+    4300034: knob_left_door_front doors
+    4300036: light_fixtures_glass
+    4300038: metal_light_fixtures
+    4300040: roof_shingles
+    4300042: stairs
+    4300044: structure_roof
+    4300046: trim
+    4300048: walls_ceiling
+    4300050: walls_outside_walls
+    4300052: walls_walls_house
+    4300054: walls_walls_pv_room
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .449999988
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
