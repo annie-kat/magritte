@@ -7,10 +7,10 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: green_bottle
-  m_Shader: {fileID: 4800000, guid: 64ddac4260c4455419f609e5aca7da49, type: 3}
+  m_Shader: {fileID: 4800000, guid: 706f35475039b2c48933851bf0486512, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -95,7 +95,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 0.02259948, g: 0.1397059, b: 0.031080732, a: 0.9411765}
+        second: {r: 0.07904412, g: 0.31617647, b: 0.15917853, a: 0.9411765}
       data:
         first:
           name: _SpecColor
