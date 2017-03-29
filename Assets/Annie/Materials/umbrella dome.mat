@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: stairs_diffuse
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: umbrella dome
+  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -19,8 +19,8 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 77cc11121287b494bb0002eb9c49ab53, type: 3}
-          m_Scale: {x: 1, y: 2}
+          m_Texture: {fileID: 2800000, guid: a55a19c1402e445738f786ba9dfb9f5a, type: 3}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -32,6 +32,20 @@ Material:
       data:
         first:
           name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Spec_Gloss_Reflec_Masks
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -78,7 +92,18 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: 0.5
       data:
         first:
           name: _SrcBlend
@@ -93,6 +118,30 @@ Material:
         second: 0.5
       data:
         first:
+          name: _Shininess
+        second: 1.5
+      data:
+        first:
+          name: _Gloss
+        second: 0.5
+      data:
+        first:
+          name: _FrezPow
+        second: 0.25
+      data:
+        first:
+          name: _FrezFalloff
+        second: 4
+      data:
+        first:
+          name: _EdgeAlpha
+        second: 0
+      data:
+        first:
+          name: _Metalics
+        second: 0.5
+      data:
+        first:
           name: _Parallax
         second: 0.02
       data:
@@ -102,7 +151,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 0.52
+        second: 0.5
       data:
         first:
           name: _BumpScale
@@ -135,4 +184,8 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 0.9044118, b: 0.9063895, a: 1}
+        second: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.029411793, g: 0.029411793, b: 0.029411793, a: 1}
