@@ -1,34 +1,33 @@
 ﻿#pragma strict
 
 //Make an empty game object and call it "Door"
-//Rename your 3D door model to "Body"
 //Parent a "Body" object to "Door"
 //Make sure thet a "Door" object is in left down corner of "Body" object. The place where a Door Hinge need be
 //Add a box collider to "Door" object and make it much bigger then the "Body" model, mark it trigger
 //Assign this script to a "Door" game object that have box collider with trigger enabled
-//Press "f" to open the door and "g" to close the door
 //Make sure the main character is tagged "player"
 
 var sound : AudioClip;
 
-public var startAngle : float;
+private var startAngle : float;
 public var endAngle : float;
 private var doorSwingSmoothingTime = .5f;
-private var firstClick = true; 
 
 private var currentAngle : float;
 
 private var opening : boolean;
-private var closing : boolean;
 private var near : boolean;
 
 private var closedRot : Vector3;
 private var openRot : Vector3;
 private var currentAngularVelocity : float; 
 function Start(){
-	transform.FindChild("door body").tag = "Clickable";
+	//transform.FindChild("door body").tag = "Clickable";
 //	defaultRot = transform.eulerAngles;
 //	openRot = new Vector3 (defaultRot.x, defaultRot.y + DoorOpenAngle, defaultRot.z);
+	var startRot = Quaternion.identity;
+	startAngle = gameObject.transform.localRotation.y;
+	Debug.Log("StartAngle: " + startAngle, gameObject);
 	currentAngle = startAngle;
 	//endAngle = currentAngle;
 	closedRot = transform.eulerAngles;	
@@ -40,28 +39,22 @@ function Start(){
 function Update (){
 	if(opening){
 		//Open door
-		//transform.eulerAngles = Vector3.Lerp(transform.eulerAngles , openRot, Time.deltaTime);
+		transform.eulerAngles = Vector3.Lerp(transform.eulerAngles , openRot, Time.deltaTime);
 		currentAngle = Mathf.SmoothDamp (currentAngle, 
                                         endAngle, 
                                         currentAngularVelocity, 
                                         doorSwingSmoothingTime);
-       transform.localRotation = Quaternion.AngleAxis (currentAngle, Vector3.up);
+		transform.localRotation = Quaternion.AngleAxis (currentAngle, Vector3.up);
 		
-		//transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, openRot, Time.deltaTime * doorSwingSmoothingTime);
-		//if(transform.eulerAngles == openRot) 
-		//	open = false; 
-	
-	}else if(closing){
-		//Close door
+		transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, openRot, Time.deltaTime * doorSwingSmoothingTime);
+		if(transform.eulerAngles == openRot) 
+			opening = false; 
 	}
 	
-	if(firstClick && Input.GetButton("Fire1") && near){
-		GetComponent.<AudioSource>().PlayOneShot(sound);
+	if(Input.GetButton("Fire1") && near){
+		Debug.Log("Ya clicked.", gameObject);
 		opening = true;
-		firstClick = false; 
-		transform.FindChild("door body").tag = "Untagged";	
-	} else if(near){
-		closing = true;
+		gameObject.tag = "Untagged";
 	}
 }
 
