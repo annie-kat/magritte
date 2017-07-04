@@ -7,8 +7,8 @@ var sound : AudioClip;
 function Start () {
 	transform.tag = "Clickable";	
 	player = GameObject.Find("First Person Controller");
-	transform.FindChild("match flame").gameObject.active = false;
-	transform.FindChild("match light").gameObject.active = false;
+	transform.Find("match flame").gameObject.active = false;
+	transform.Find("match light").gameObject.active = false;
 	//Debug.Log("hello match");
 } 
 
@@ -23,8 +23,8 @@ function OnMouseDown () {
 		
 		if(!clicked) {
 			Debug.Log("first click");
-			transform.FindChild("match flame").gameObject.active = true;
-			transform.FindChild("match light").gameObject.active = true;
+			transform.Find("match flame").gameObject.active = true;
+			transform.Find("match light").gameObject.active = true;
 			transform.tag = "Untagged";	
 			GetComponent.<AudioSource>().PlayOneShot(sound);
 			clicked = true;

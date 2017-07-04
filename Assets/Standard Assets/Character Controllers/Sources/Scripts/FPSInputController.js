@@ -14,7 +14,7 @@ private var body : Rigidbody ;
 // Use this for initialization
 function Awake () {
 	motor = GetComponent(CharacterMotor);
-	myCam = transform.FindChild("Main Camera");
+	myCam = transform.Find("Main Camera");
 }
 
 // Update is called once per frame

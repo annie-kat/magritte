@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: c914661a667044593b26fffda910e02f
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: door_front_doors door_left
     100002: door_front_doors door_right
@@ -32,6 +32,20 @@ ModelImporter:
     100052: walls_outside_walls
     100054: walls_walls_house
     100056: walls_walls_pv_room
+    100058: door_front_doors_door_left
+    100060: door_front_doors_door_right
+    100062: door_front_doors_knob_right
+    100064: doors_door_door_room5
+    100066: doors_door_room1_door
+    100068: doors_door_room2_door
+    100070: doors_door_room3_door
+    100072: doors_door_room4_door
+    100074: doors_door_room5_knob
+    100076: doors_knob_door_room1
+    100078: doors_knob_door_room2
+    100080: doors_knob_door_room3
+    100082: doors_knob_door_room4
+    100084: knob_left_door_front_doors
     400000: door_front_doors door_left
     400002: door_front_doors door_right
     400004: door_front_doors knob_right
@@ -61,6 +75,20 @@ ModelImporter:
     400052: walls_outside_walls
     400054: walls_walls_house
     400056: walls_walls_pv_room
+    400058: door_front_doors_door_left
+    400060: door_front_doors_door_right
+    400062: door_front_doors_knob_right
+    400064: doors_door_door_room5
+    400066: doors_door_room1_door
+    400068: doors_door_room2_door
+    400070: doors_door_room3_door
+    400072: doors_door_room4_door
+    400074: doors_door_room5_knob
+    400076: doors_knob_door_room1
+    400078: doors_knob_door_room2
+    400080: doors_knob_door_room3
+    400082: doors_knob_door_room4
+    400084: knob_left_door_front_doors
     2300000: door_front_doors door_left
     2300002: door_front_doors door_right
     2300004: door_front_doors knob_right
@@ -89,6 +117,20 @@ ModelImporter:
     2300050: walls_outside_walls
     2300052: walls_walls_house
     2300054: walls_walls_pv_room
+    2300056: door_front_doors_door_left
+    2300058: door_front_doors_door_right
+    2300060: door_front_doors_knob_right
+    2300062: doors_door_door_room5
+    2300064: doors_door_room1_door
+    2300066: doors_door_room2_door
+    2300068: doors_door_room3_door
+    2300070: doors_door_room4_door
+    2300072: doors_door_room5_knob
+    2300074: doors_knob_door_room1
+    2300076: doors_knob_door_room2
+    2300078: doors_knob_door_room3
+    2300080: doors_knob_door_room4
+    2300082: knob_left_door_front_doors
     3300000: door_front_doors door_left
     3300002: door_front_doors door_right
     3300004: door_front_doors knob_right
@@ -117,6 +159,20 @@ ModelImporter:
     3300050: walls_outside_walls
     3300052: walls_walls_house
     3300054: walls_walls_pv_room
+    3300056: door_front_doors_door_left
+    3300058: door_front_doors_door_right
+    3300060: door_front_doors_knob_right
+    3300062: doors_door_door_room5
+    3300064: doors_door_room1_door
+    3300066: doors_door_room2_door
+    3300068: doors_door_room3_door
+    3300070: doors_door_room4_door
+    3300072: doors_door_room5_knob
+    3300074: doors_knob_door_room1
+    3300076: doors_knob_door_room2
+    3300078: doors_knob_door_room3
+    3300080: doors_knob_door_room4
+    3300082: knob_left_door_front_doors
     4300000: door_front_doors door_left
     4300002: door_front_doors door_right
     4300004: door_front_doors knob_right
@@ -145,6 +201,20 @@ ModelImporter:
     4300050: walls_outside_walls
     4300052: walls_walls_house
     4300054: walls_walls_pv_room
+    4300056: door_front_doors_door_left
+    4300058: door_front_doors_door_right
+    4300060: door_front_doors_knob_right
+    4300062: doors_door_door_room5
+    4300064: doors_door_room1_door
+    4300066: doors_door_room2_door
+    4300068: doors_door_room3_door
+    4300070: doors_door_room4_door
+    4300072: doors_door_room5_knob
+    4300074: doors_knob_door_room1
+    4300076: doors_knob_door_room2
+    4300078: doors_knob_door_room3
+    4300080: doors_knob_door_room4
+    4300082: knob_left_door_front_doors
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -153,18 +223,26 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .449999988
+    globalScale: 0.45
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -172,29 +250,39 @@ ModelImporter:
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,7 +6,7 @@ private var bitten = false;
 
 function Start () {
 	player = GameObject.Find("First Person Controller");
-	transform.FindChild("whole apple").gameObject.active = true;
+	transform.Find("whole apple").gameObject.active = true;
 } 
 
 function Update () {
@@ -18,7 +18,7 @@ function OnMouseDown () {
 		// do the interaction thing... 
 		
 		if(!bitten) {
-			transform.FindChild("whole apple").gameObject.active = false;
+			transform.Find("whole apple").gameObject.active = false;
 			GetComponent.<AudioSource>().PlayOneShot(sound);
 			bitten = true;
 		}
